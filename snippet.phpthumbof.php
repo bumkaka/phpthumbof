@@ -6,6 +6,7 @@
 * @version 1.1
 * @license GNU General Public License (GPL), http://www.gnu.org/copyleft/gpl.html
 * @author Agel_Nash <Agel_Nash@xaker.ru>
+* mod by bumkaka
 */
 //[[phpthumb? &input=`[+tvimagename+]` &options=`w_255,h=200`]]
 
@@ -20,8 +21,8 @@ else{
   require_once MODX_BASE_PATH."/assets/snippets/phpthumbof/phpthumb.class.php";
   $phpThumb = new phpthumb();
   $phpThumb->setSourceFilename($input);
-  $options = explode("&", $options);
   
+  $options = explode("&", $options);
   foreach ($options as $value) {
     $thumb = explode("=", $value);
     $phpThumb->setParameter($thumb[0], $thumb[1]);
