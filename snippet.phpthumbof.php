@@ -1,12 +1,11 @@
 <?php
 /**
-* SEOphpthumb
+* phpthumb
 *
 * @category snippet
-* @version 1.1
+* @version 1.0
 * @license GNU General Public License (GPL), http://www.gnu.org/copyleft/gpl.html
-* @author Agel_Nash <Agel_Nash@xaker.ru>
-* mod by bumkaka
+* @author bumkaka, Agel_Nash (dir structure)
 */
 //[[phpthumb? &input=`[+tvimagename+]` &options=`w_255,h=200`]]
 
