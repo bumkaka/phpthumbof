@@ -10,7 +10,7 @@
 */
 //[[phpthumb? &input=`[+tvimagename+]` &options=`w_255,h=200`]]
 
-$base="images";
+$base="assets/cache/phpthumbof";
 if(!defined('MODX_BASE_PATH')){die('What are you doing? Get out of here!');}
 
 if($input == '' || !file_exists($_SERVER['DOCUMENT_ROOT']."/".$input))
